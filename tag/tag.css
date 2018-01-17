@@ -1,0 +1,16 @@
+div{
+   font-family:'source-sans-pro-regular',sans-serif,helvetica,arial;
+    font-stretch: ultra-condensed;
+    position: absolute;
+}
+p{
+    font-size: 460px;
+    color: #39C2D7;
+    transform: scale(0.5,1.3);
+    letter-spacing: -10px;
+
+}
+span{
+    color: #464547;
+    font-size: 590px;
+}
