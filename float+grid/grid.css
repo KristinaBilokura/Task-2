@@ -1,0 +1,42 @@
+body{ 
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 15% 20% 20% 20% 10% 15%;
+
+}
+#nav{
+    grid-area: 1 / 1 / 6 / 3;
+    background-color: mistyrose;
+}
+header{
+   grid-column: 3 / 11;
+    text-align: center;
+    background-color: aliceblue;
+}
+footer{
+      grid-column: 1 / 11;
+    grid-row-start: 6;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+#aside{
+    grid-row-start: 2;
+    grid-row-end:6;
+    grid-column-start: 9;
+    grid-column-end:11; 
+    background-color: mistyrose;
+}
+
+#article1{
+    grid-area: 4 / 3 / 6 / 6; 
+    background-color: lightblue;
+    
+}
+#article2{
+    grid-area: 4 / 6 / 6 / 9;
+    background-color: skyblue;
+}
+img{
+    width: 100%;
+}

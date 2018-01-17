@@ -1,0 +1,37 @@
+body{
+  display: flex;
+
+}
+
+
+header{
+    background-color:gainsboro;
+
+}
+footer{
+    background-color: gainsboro;
+    justify-content:space-around;
+    align-items: flex-end;
+    flex-direction: row;
+}
+#nav{
+    background-color:ghostwhite;
+
+    
+}
+#aside{
+    background-color: ghostwhite;
+
+}
+#center{
+    background-color: white;
+
+}
+#article1{
+    background-color: lightblue;
+
+}
+#article2{
+    background-color: powderblue;
+
+}
